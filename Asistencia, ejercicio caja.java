@@ -33,6 +33,32 @@ public class Ciclos11 {//Estoy tratando de memorizar los pasos, así es que voy
                 + "impares es: "+producto);
                 }
         }
+/*
+Ejercicio 12: Pedir un número y calcular su factorial
+Hacerlo con las dos clases, Scanner y JOptionPane
+ */
+package ciclos12;
+
+//import java.util.Scanner;
+
+import javax.swing.JOptionPane;
+
+
+
+public class Ciclos12 {
+    public static void main(String[] args) {
+        //Scanner entrada = new Scanner(System.in);
+        long factorial = 1;
+        //System.out.println("Digite un número: ");
+        int numero = Integer.parseInt("Digite un número: ");
+        for(int i=1; i<=numero; i++){
+            factorial *= i;
+        }
+        //System.out.println("\nEl factorial del número ingresado es:"+factorial);
+        JOptionPane.showInternalMessageDialog(null, "El factorial del número es: "+factorial);
+    }
+    
+}
 
 //Nicolas Calvo
 
@@ -83,32 +109,6 @@ public int calcularVolumen () {
     }
 }
    
-//Beatriz Ramírez
-package Operaciones;
-
-public class Aritmetica {
-        //Atributos de la clase
-        int a;
-        int b;
-        
-        //Metodo
-        public void sumarNumeros(){
-            int resultado = a + b;
-            System.out.println("resultado = " + resultado);
-        }
-        
-        public int sumarConRetorno(){
-            //int resultado = a + b;
-            return this.a + this.b;
-        }
-        
-        public int sumarConArgumentos(int a, int b){
-            this.a = a; //El argumento a se asigna el atributo this.a
-            this.b = b; //El argumento b se asigna el atributo this.b
-            //return a + b;  
-            return this.sumarConRetorno();
-       }   
-}
 
 // Marianela Orozco
 // Ejercicio 11: Diseñar un programa que muestre el producto
