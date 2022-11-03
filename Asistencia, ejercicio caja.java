@@ -34,7 +34,6 @@ public class Ciclos11 {//Estoy tratando de memorizar los pasos, así es que voy
                 }
         }
 
-
 //Beatriz Ramírez
 /*
 Ejercicio 12: Pedir un número y calcular su factorial
