@@ -33,6 +33,9 @@ public class Ciclos11 {//Estoy tratando de memorizar los pasos, así es que voy
                 + "impares es: "+producto);
                 }
         }
+
+
+//Beatriz Ramírez
 /*
 Ejercicio 12: Pedir un número y calcular su factorial
 Hacerlo con las dos clases, Scanner y JOptionPane
