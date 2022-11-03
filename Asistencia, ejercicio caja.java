@@ -35,6 +35,7 @@ public class Ciclos11 {//Estoy tratando de memorizar los pasos, así es que voy
         }
 
 //Beatriz Ramírez
+//EjercicioCiclos12 - Clase 7 - 14 de octubre
 /*
 Ejercicio 12: Pedir un número y calcular su factorial
 Hacerlo con las dos clases, Scanner y JOptionPane
