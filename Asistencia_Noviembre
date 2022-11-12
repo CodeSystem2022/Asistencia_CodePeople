@@ -17,3 +17,50 @@ public class Arreglos_Ejercicio_1 {
         }
         for(int i = 0; i < 5; i ++){
             System.out.println("El "+(i+1)+"° número ingresado es "+numeros[i]);
+
+/* Nicolas Calvo Clase 11/11 Ejercicio 3:Leer cinco numeros por telcado almacenarlos en un arreglo y a continuacion hallar
+el promedio de los numeros positivos,la media de los negativos y contar el numero de ceros.
+
+*/
+
+package arreglos_ejercicio_3:
+
+import java.util.Scanner;
+
+public class Arreglos_Ejercicio_{
+     public static void main(String[]args)
+      Scanner entrada = new Scanner (System.in)
+      float numeros [] =new float[5];
+      float negativos=0,positivos = 0;mediaNegativos;mediaPositivos;
+      int conteo 0=0;conteo_negativos=0;conteo_positivos=0;
+      System.out.println("Guardamos los elementos del arreglo"); 
+      for(int i=0;i<5;i++)´{
+        positivos +=numero[i];
+        conteo_positivos++;
+
+
+      } 
+       else if (numeros [i<0]) {
+        negativos += numeros [i];
+        conteo_negativos++;
+       else { conteo0++} 
+
+       }
+       if (conteo_positivos ==0) {
+         System.out.println("/nNo se puede sacar la media de positivos")
+
+         else { 
+             mediaPositivos = positivos/conteo_positivos;
+             System.out.println("/nLa media de los numeros positivos es")
+         if (conteo_negativos ==0) {
+            System.out.println ( "/n No se puede sacar la media de los numeros negativos")
+          else ( 
+            mediaNegativos =negativos/conteo_negativos;
+            System.outprintln ("La media de los numero negativos es ")
+
+          System.out.println ("La cantidad de ceros es :" +conteo0)
+
+          )
+    
+<}
+
