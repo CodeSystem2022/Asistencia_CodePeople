@@ -98,13 +98,24 @@ package operaciones;
 
 public class Operaciones {
     public static int sumar(int a, int b){
-        System.out.println("Método para sumar enteros ");
+        System.out.println("Mï¿½todo para sumar enteros ");
         return a + b;
     }
     
     public static double sumar (double a, double b) {
-        System.out.println("Método para sumar double");
+        System.out.println("Mï¿½todo para sumar double");
         return a + b;
     }
 }
 
+// Kudaka Matias
+Clase 10, Leccion 8
+Palabra Final
+
+package test;
+
+public class Testfinal {
+    public static void main(String[] args) {
+        final int miDni = 39555278;
+        System.out.println("miDni = " + miDni);
+        //miDni = 20312321; //no se puede modificar porque esta con final
